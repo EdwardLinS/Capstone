@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Nav() {
     return (
         <div className="header">
@@ -5,22 +7,22 @@ function Nav() {
         <nav className="grid">
             <ul className="navbar">
                 <li>
-                    <a href="home.html">Home</a>
+                    <Link to="/" className="nav-item">Home</Link>
                 </li>
                 <li>
-                    <a href="about.html">About</a>
+                    <Link to="/chicago" className="nav-item">About</Link>
                 </li>
                 <li>
-                    <a href="menu.html">Menu</a>
+                    <Link to="/specials" className="nav-item">Menu</Link>
                 </li>
                 <li>
-                    <a href="reservations.html">Reservations</a>
+                    <Link to="/booking" className="nav-item">Reservations</Link>
                 </li>
                 <li>
-                    <a href="orderonline.html">Order Online</a>
+                    <Link to="orderonline.html" className="nav-item">Order Online</Link>
                 </li>
                 <li>
-                    <a href="login.html">Login</a>
+                    <Link to="login.html" className="nav-item">Login</Link>
                 </li>
             </ul>
         </nav>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
     return (
         <footer>
@@ -5,48 +7,48 @@ function Footer() {
             <ul className="footerNav">
                 <p>Doormat Navigation</p>
                 <li>
-                    <a href="home.html">Home</a>
+                    <Link to="/" className="nav-item">Home</Link>
                 </li>
                 <li>
-                    <a href="about.html">About</a>
+                    <Link to="/chicago" className="nav-item">About</Link>
                 </li>
                 <li>
-                    <a href="menu.html">Menu</a>
+                    <Link to="/specials" className="nav-item">Menu</Link>
                 </li>
                 <li>
-                    <a href="reservations.html">Reservations</a>
+                    <Link to="/booking" className="nav-item">Reservations</Link>
                 </li>
                 <li>
-                    <a href="orderonline.html">Order Online</a>
+                    <Link to="orderonline.html" className="nav-item">Order Online</Link>
                 </li>
                 <li>
-                    <a href="login.html">Login</a>
+                    <Link to="login.html" className="nav-item">Login</Link>
                 </li>
             </ul>
 
             <ul className="contact">
                 <p>Contact</p><br></br>
                 <li>
-                    <a href="address.html">Address</a>
+                    <a href="address.html" className="nav-item">Address</a>
                 </li>
                 <li>
-                    <a href="phonenumber.html">Phone Number</a>
+                    <a href="phonenumber.html" className="nav-item">Phone Number</a>
                 </li>
                 <li>
-                    <a href="email.html">Email</a>
+                    <a href="email.html" className="nav-item">Email</a>
                 </li>
             </ul>
 
             <ul className="media">
                 <p>Social media Links</p><br></br>
                 <li>
-                    <a href="address.html">Address</a>
+                    <a href="address.html" className="nav-item">Address</a>
                 </li>
                 <li>
-                    <a href="phonenumber.html">Phone Number</a>
+                    <a href="phonenumber.html" className="nav-item">Phone Number</a>
                 </li>
                 <li>
-                    <a href="email.html">Email</a>
+                    <a href="email.html" className="nav-item">Email</a>
                 </li>
             </ul>
         </footer>
