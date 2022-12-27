@@ -86,13 +86,21 @@ footer p {
     height: 300px;
 }
 
-.home > * {
+.book {
+    display: block;
+    background-color: #495E57;
+    position: absolute;
+    width: 100%;
+    height: 140px;
+}
+
+.home > *, .book > *, .confirm > *{
     z-index: 5;
     margin-left: 15vh;
     text-align: left;
 }
 
-.home h1 {
+.home h1, .book h1, .confirm h1 {
     margin-top: 25px;
     font-family: 'Markazi Text', serif;
     font-size: 64px;
@@ -100,7 +108,7 @@ footer p {
     font-weight: normal;
 }
 
-.home h2 {
+.home h2, .confirm h2 {
     font-family: 'Markazi Text', serif;
     font-size: 40px;
     color: white;
@@ -119,3 +127,40 @@ footer p {
 .home .background {
     z-index: 3;
 }
+
+.form {
+    margin:auto;
+    padding-left: 10%;
+    padding-top: 10%;
+    width: 100%;
+}
+
+label {
+    font-family: 'Karla', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    white-space: nowrap;
+}
+
+input, select {
+    width: 100%;
+    font-size: medium;
+    font-family: 'Karla', sans-serif;
+}
+
+#submit-button {
+    margin-top: 20px;
+    width: auto;
+    height: 110%;
+}
+
+.confirm {
+    display: block;
+    background-color: #495E57;
+    position: absolute;
+    width: 100%;
+    height: 180px;
+}
+
+
+

@@ -16,7 +16,9 @@ function HomePage() {
 
 function BookingPage(props) {
     return (
-        <div>
+        <div className="book">
+            <div className="background"></div>
+            <h1>Book your reservations</h1><br></br>
             <BookingForm time={props.time} submitForm={props.submitForm}/>
         </div>
     )
