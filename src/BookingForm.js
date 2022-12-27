@@ -10,6 +10,7 @@ function BookingForm(props) {
     const d = new Date();
     const stringD = `${d.getFullYear()}-${d.getMonth()+1}-${d.getDate()}`;
 
+
     return (
         <div className="form">
             <form onSubmit={props.submitForm} style={{display: 'grid', maxWidth: "200px", gap: "20px"}}>
